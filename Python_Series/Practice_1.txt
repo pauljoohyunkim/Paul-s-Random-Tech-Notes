@@ -1,0 +1,15 @@
+Question 1
+----------
+a=1 assigns 1 to a in integer data type.
+a=1.0 assigns 1 to a in float data type.
+
+On an interactive python shell:
+
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=1
+>>> type(a)
+<class 'int'>
+>>> a=1.0
+>>> type(a)
+<class 'float'>
