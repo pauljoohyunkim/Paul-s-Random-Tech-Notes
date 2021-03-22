@@ -1,0 +1,13 @@
+Question 2
+----------
+a = 3 + ' apples' attempts to add or concatenate two data which have different data types.
+
+
+
+To fix this, you can do:
+
+a = '3' + ' apples'
+or
+a = str(3) + ' apples'
+or
+a = '3 apples'
