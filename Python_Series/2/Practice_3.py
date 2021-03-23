@@ -5,6 +5,7 @@ numstring = numstring.split(',')
 
 #Using the hint
 for i in range(len(numlist)):
+  #Note that I am using float!
   numlist[i] = float(numlist[i])
 
 #Printing the average
